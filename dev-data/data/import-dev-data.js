@@ -44,4 +44,8 @@ if(process.argv[2] === '--import'){
 }
 else if (process.argv[2] === '--delete'){
     deleteAll()
+
+}
+else{
+    console.log('Error: Unknown')
 }
